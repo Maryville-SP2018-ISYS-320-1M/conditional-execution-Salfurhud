@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 /*
 	ISYS 320
-	Name(s):
-	Date: 
+	Name(s):AlfurhudSolomon
+	Date: Apr8, 2018
 */
 
 /*  EXAMPLE
@@ -18,33 +18,55 @@ x < y
 /* 1. 
 -- Your conditional expression
 
-
+	y >=0
+	
 -- Your test values for x, y, z and do you expect true or false?
-
+	
+	y = 1
+	TRUE,
+	
 */
 
 /* 2. 
 -- Your conditional expression
 
+	x != 0
 
 -- Your test values for x, y, z and do you expect true or false?
 
+	x = 0,
+	FALSE,
+	
+	x = 1,
+	TRUE, 
+	
 */
 
 /* 3.  
 -- Your conditional expression
 
+	((y * z ) & 1) != 0
 
 -- Your test values for x, y, z and do you expect true or false?
 
+	y = 3, z = 2
+	TRUE
+	
+	y = 2, z = 2
+	FALSE
+	
 */
 
 /* 4.  
 -- Your conditional expression
 
+	y >= (z + x)
 
 -- Your test values for x, y, z and do you expect true or false?
 
+	y = 10, z = 1, z = 1
+	TRUE
+	
 */
 
 public class P1_YourOwnWords {
@@ -59,7 +81,7 @@ public class P1_YourOwnWords {
 		
 		// Replace the conditional test, x < y below with your conditional expression to verify it is correct
 		// using your test values
-		if( x < y ) {
+		if( y >= (z + x) ) {
 			System.out.println("The test was TRUE");
 		} else {
 			System.out.println("The test was FALSE");
